@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <ImageView android:id="@+id/app_icon"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="App icon"
+        />
+
+    <TextView android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:paddingTop="10dp"
+        android:text="App_name"
+        android:layout_toRightOf="@id/app_icon"/>
+
+    <TextView android:id="@+id/app_package_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="com.example.app"
+        android:layout_toRightOf="@id/app_icon"
+        android:layout_below="@id/app_name"/>
+
+    <Button android:id="@+id/uninstall_icon"
+        android:layout_width="?android:attr/listPreferredItemHeightSmall"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button android:id="@+id/check_inactive"
+        android:layout_width="?android:attr/listPreferredItemHeightSmall"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/uninstall_icon"
+        />
+
+</RelativeLayout>

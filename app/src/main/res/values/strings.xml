@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApplicationManager</string>
+    <color name="red">#8B0000</color>
+    <string name="descrip1">Puedes intentar desactivar la aplicación para reducir consumo de espacio de almacenamiento.</string>
+    <string name="descrip2">Puedes desinstalar la aplicación para eliminarla completamente de la memoria.</string>
+    <string name="warning">AVISO: Desactivar aplicaciones del sistema puede provocar fallos o inestabilidad en el dispositivo.</string>
+    <string name="warning1.0">Hazlo bajo tu propio riesgo.</string>
+    <string name="warn2">Las aplicaciones del sistema no se pueden desinstalar.</string>
+</resources>
